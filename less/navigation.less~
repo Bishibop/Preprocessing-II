@@ -30,10 +30,10 @@ nav {
 		&:hover {
 			text-decoration: underline;
 			&:nth-child(odd) {
-				.like-a-record(2);
+				.like-a-record(1);
 			}
 			&:nth-child(even) {
-				.like-a-record(1);
+				.like-a-record(2);
 			}
 		}
 
