@@ -3,7 +3,7 @@
 nav {
 	display: flex;
 	justify-content: flex-end;
-	align-items: center;
+	align-items: flex-end;
 
 	margin: 40px 0px;
 	
