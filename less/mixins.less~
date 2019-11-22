@@ -10,7 +10,3 @@
 	border-radius: 12px;
 }
 
-.content-flex() {
-      width: 100%;
-      padding-right: 0%;
-}

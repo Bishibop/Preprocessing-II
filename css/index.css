@@ -208,7 +208,7 @@ nav a:hover {
 @media (max-width: 500px) {
   nav a {
     text-align: center;
-    flex-basis: 20%;
+    flex-basis: 25%;
     margin-right: 0px;
   }
 }
@@ -289,6 +289,11 @@ nav a:hover {
   width: 75%;
   margin: 0 auto 30px;
 }
+@media (max-width: 500px) {
+  .home .content-destination {
+    width: 100%;
+  }
+}
 .home .content-destination img {
   border-radius: 10px;
 }
@@ -298,9 +303,20 @@ nav a:hover {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 500px) {
+  .home .content-pick {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+@media (max-width: 500px) {
+  .home .content-pick .destination {
+    width: 85%;
+  }
 }
 .home .content-pick .destination .btn {
   background: #008080;
@@ -310,4 +326,15 @@ nav a:hover {
   margin-right: 40px;
   padding: 10px 0px;
   border-radius: 12px;
+}
+@media (max-width: 500px) {
+  .home .content-pick .destination .btn {
+    background: #17a2b8;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 40px;
+    padding: 10px 0px;
+    border-radius: 12px;
+  }
 }

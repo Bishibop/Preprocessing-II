@@ -1,7 +1,5 @@
 // Navigation Styles here
 
-@test-mobile: ~"(max-width: 500px)";
-
 nav {
 
 	display: flex;
