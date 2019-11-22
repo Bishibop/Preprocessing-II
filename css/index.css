@@ -1,3 +1,11 @@
+@keyframes like-a-record {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -204,6 +212,16 @@ nav a {
 }
 nav a:hover {
   text-decoration: underline;
+}
+nav a:hover:nth-child(odd) {
+  animation-duration: 2s;
+  animation-iteration-count: 2;
+  animation-name: like-a-record;
+}
+nav a:hover:nth-child(even) {
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-name: like-a-record;
 }
 @media (max-width: 500px) {
   nav a {

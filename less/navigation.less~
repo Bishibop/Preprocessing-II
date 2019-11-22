@@ -29,13 +29,20 @@ nav {
 		text-decoration: none;
 		&:hover {
 			text-decoration: underline;
+			&:nth-child(odd) {
+				.like-a-record(1);
+			}
+			&:nth-child(even) {
+				.like-a-record(2);
+			}
 		}
 
 		@media @mobile {
 			text-align: center;
-			flex-basis: 20%;
+			flex-basis: 25%;
 			margin-right: 0px;
 		}
+
 	}
 
 
