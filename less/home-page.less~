@@ -8,6 +8,10 @@
 	  .page-border {
 		  border-top: 2px dashed @navigation-border;
 		  margin: 0 -80px;
+
+		  @media @mobile {
+			  margin: 0 -20px;
+		  }
 		  //width: 95vw;
 		  //position: absolute;
 		  //left: calc(50%-50vw);
@@ -29,11 +33,19 @@
     .text-content {
       width: 48%;
       padding-right: 1%;
+      @media @mobile {
+	      width: 100%;
+	      padding-right: 0%;
+      }
     }
 
     .img-content {
       width: 48%;
       padding-left: 1%;
+      @media @mobile {
+	      width: 100%;
+	      padding-right: 0%;
+      }
 
       img {
         border-radius: 10px;
@@ -53,6 +65,10 @@
     .img-content {
       padding-right: 1%;
       padding-left: 0;
+    }
+
+    @media @mobile {
+	    flex-direction: column-reverse;
     }
   }
 
@@ -74,6 +90,10 @@
     .destination {
       width: 30%;
       margin-bottom: 30px;
+
+      .btn {
+	      .my-button();
+      }
     }
   }
 }// home
